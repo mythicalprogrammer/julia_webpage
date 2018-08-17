@@ -145,18 +145,25 @@ header.masthead .device-container .screen img {
 }
 
 
-section.features {
+section.features, 
+section.ecosystem {
   position: relative;
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
-section.features h2 {
+.bg-ecosystem {
+  background-color: #399746;
+}
+
+section.features h2,
+section.ecosystem h2 {
   font-size: 50px;
   margin-top: 0;
   color: white;
 }
 
-section.features h4 {
+section.features h4, 
+section.ecosystem h4 {
   color: white;
 }
 
@@ -165,8 +172,18 @@ section.features p {
   font-weight: 100;
 }
 
+section.ecosystem p {
+  color: black;
+  font-weight: 100;
+}
+
 section.features a {
   color: #9259a3;
+  font-weight: 600;
+}
+
+section.ecosystem a {
+  color: #4d64ae;
   font-weight: 600;
 }
 

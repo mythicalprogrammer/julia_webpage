@@ -116,11 +116,12 @@
   font-size: 14px;
 }
 #ecosystem-tab .nav-item a.active {
-  border-top: 4px solid #CA3C32;
-  color: #CA3C32;
+  color: #4d64ae;
+  font-weight: 500;
 }
 #ecosystem-tab .nav-item a {
-  color: #898989;
+  color: #FFFFFF;
+  font-weight: 100;
 }
 #ecosystem-tab-content div.tab-pane {
   background-color: #fff;
@@ -132,7 +133,7 @@
   /* padding: 20px; */
 }
 .ecosystem hr {
-  background-color: #CA3C32;
+  background-color: #4D64AE;
 }
 
 .ide, .blog, .video {
@@ -380,7 +381,7 @@ h4.card-title {
 }
 
 #ecosystem-tab-content div.tab-pane h4 {
-  color: #CA3C32;
+  color: #9259a3;
 }
 #ecosystem-tab-content div.tab-pane h6 {
   color: #CA3C32;
