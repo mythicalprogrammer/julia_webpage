@@ -143,6 +143,33 @@ header.masthead .device-container .screen img {
     max-width: 325px;
   }
 }
+
+
+section.features {
+  position: relative;
+  padding: 150px 0;
+}
+
+section.features h2 {
+  font-size: 50px;
+  margin-top: 0;
+  color: white;
+}
+
+section.features h4 {
+  color: white;
+}
+
+section.features p {
+  color: white;
+  font-weight: 100;
+}
+
+section.features a {
+  color: #9259a3;
+  font-weight: 600;
+}
+
 .btn-outline {
   color: white;
   border: 1px solid;
