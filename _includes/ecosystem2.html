@@ -41,31 +41,40 @@
       <div class="tab-content" id="ecosystem-tab-content">
         <div class="tab-pane" id="tab-general" role="tabpanel" aria-labelledby="general-tab">
           <h3 class="tab-title">General Computing</h3>
-          <img src="images/minesweeper.png" style="max-height:265px;" class="pb-2 ecosystem-image img-fluid" />
           <div class="container-fluid">
-            <h4>
-              Build, Deploy or Embed Your Code
-            </h4>
-            <p>
-              Julia lets you write UIs, statically compile your code, or even deploy it on a webserver. It also has powerful shell-like capabilities for managing other processes. It provides Lisp-like macros and other metaprogramming facilities.
-            </p>
-            <p>
-              It is also friendly with other languages, providing stable interfaces with:
-                <a href = "https://docs.julialang.org/en/stable/manual/calling-c-and-fortran-code/">C</a>,
-                <a href = "https://github.com/JuliaPy/PyCall.jl">Python</a>,
-                <a href = "https://github.com/JuliaInterop/RCall.jl">R</a>,
-                <a href = "https://github.com/JuliaInterop/JavaCall.jl">Java</a>,
-              and many more.
-            </p>
+            <div class="row">
+                <div class="col-md-5">
+              <img src="images/minesweeper.png" style="max-height:265px;" class="pb-2 ecosystem-image img-fluid" />
+                </div>
+
+                <div class="col-md-7">
+                <h4>
+                  Build, Deploy or Embed Your Code
+                </h4>
+                <p>
+                  Julia lets you write UIs, statically compile your code, or even deploy it on a webserver. It also has powerful shell-like capabilities for managing other processes. It provides Lisp-like macros and other metaprogramming facilities.
+                </p>
+                <p>
+                  It is also friendly with other languages, providing stable interfaces with:
+                    <a href = "https://docs.julialang.org/en/stable/manual/calling-c-and-fortran-code/">C</a>,
+                    <a href = "https://github.com/JuliaPy/PyCall.jl">Python</a>,
+                    <a href = "https://github.com/JuliaInterop/RCall.jl">R</a>,
+                    <a href = "https://github.com/JuliaInterop/JavaCall.jl">Java</a>,
+                  and many more.
+                </p>
+                </div>
+             </div>
           </div>
         </div>
         <div class="tab-pane" id="tab-computing" role="tabpanel" aria-labelledby="computing-tab">
           <h3 class="tab-title">Parallel Computing</h3>
+          <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-md-5">
               <img src="images/parallel-prefix.png" class="pb-2 ecosystem-image img-fluid" />
-              <div class="container-fluid">
-                <h4>
+            </div>
+            <div class="col-md-7">
+               <h4>
                   Parallel and Heterogeneous Computing
                 </h4>
                 <p>
@@ -84,32 +93,32 @@
         </div>
         <div class="tab-pane" id="tab-math" role="tabpanel" aria-labelledby="math-tab">
           <h3 class="tab-title">Machine Learning</h3>
-          <div class="row">
-            <div class="col-lg-12">
-              <img src="images/cartpole.gif" class="pb-2 ecosystem-image img-fluid" />
-              <div class="container">
-                <h4>
-                  Scalable Machine Learning
-                </h4>
-                <p>
-                  Julia provides powerful tools for deep learning
-                  (<a href = "https://github.com/FluxML/Flux.jl">Flux</a> and
-                  <a href = "https://github.com/denizyuret/Knet.jl">Knet</a>),
-                  <a href = "http://juliaml.github.io"> machine learning </a> and AI. Julia’s mathematical syntax makes it an ideal way to express algorithms just as they are written in papers, build trainable models with
-                  <a href = "http://www.juliadiff.org">automatic differentiation</a>,
-                  <a href = "https://github.com/JuliaGPU/CuArrays.jl">GPU acceleration</a> and support for terabytes of data.
-                </p>
-                <p>
-                  Julia's rich machine learning ecosystem also provides supervised learning algorithms such as
-                  <a href = "https://github.com/JuliaStats/GLM.jl">regression</a>,
-                  <a href = "https://github.com/bensadeghi/DecisionTree.jl">decision trees</a>, and unsupervised learning algorithms such as
-                  <a href = "https://github.com/JuliaStats/Clustering.jl">clustering</a>. You can also find packages for
-                  <a href = "https://github.com/sisl/BayesNets.jl">Bayesian Networks</a> and
-                  <a href = "https://github.com/JuliaStats/Klara.jl">Markov Chain Monte Carlo</a>.
-                </p>
-              </div>
-            </div>
-          </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="images/cartpole.gif" class="pb-2 ecosystem-image img-fluid" />
+                </div>
+                <div class="col-md-7">
+                    <h4>
+                      Scalable Machine Learning
+                    </h4>
+                    <p>
+                      Julia provides powerful tools for deep learning
+                      (<a href = "https://github.com/FluxML/Flux.jl">Flux</a> and
+                      <a href = "https://github.com/denizyuret/Knet.jl">Knet</a>),
+                      <a href = "http://juliaml.github.io"> machine learning </a> and AI. Julia’s mathematical syntax makes it an ideal way to express algorithms just as they are written in papers, build trainable models with
+                      <a href = "http://www.juliadiff.org">automatic differentiation</a>,
+                      <a href = "https://github.com/JuliaGPU/CuArrays.jl">GPU acceleration</a> and support for terabytes of data.
+                    </p>
+                    <p>
+                      Julia's rich machine learning ecosystem also provides supervised learning algorithms such as
+                      <a href = "https://github.com/JuliaStats/GLM.jl">regression</a>,
+                      <a href = "https://github.com/bensadeghi/DecisionTree.jl">decision trees</a>, and unsupervised learning algorithms such as
+                      <a href = "https://github.com/JuliaStats/Clustering.jl">clustering</a>. You can also find packages for
+                      <a href = "https://github.com/sisl/BayesNets.jl">Bayesian Networks</a> and
+                      <a href = "https://github.com/JuliaStats/Klara.jl">Markov Chain Monte Carlo</a>.
+                    </p>
+                </div>
+           </div> <!-- end row -->
         </div>
         <div class="tab-pane" id="tab-sci" role="tabpanel" aria-labelledby="sci-tab">
           <h3 class="tab-title">Scientific Computing</h3>
